@@ -160,9 +160,6 @@ class ZuraClient:
         # Coba beberapa kemungkinan URL login
         login_candidates = [
             BASE_URL + "/",
-            BASE_URL + "/login",
-            BASE_URL + "/auth/login",
-            BASE_URL + "/user/login",
         ]
 
         csrf       = None
